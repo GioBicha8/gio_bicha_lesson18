@@ -9,8 +9,38 @@
   </head>
   <body>
     <div class="clock">
-      <div class="display">01:28:47 PM</div>
+      <div class="display">22:22:22 PM</div>
     </div>
+
+    <!-------- SLIDER STARTS HERE --------->
+    <div class="container">
+      <div class="image show">
+          <img src="images/image1.jpg" alt="">
+      </div>
+      <div class="image">
+          <img src="images/image2.png" alt="">
+      </div>
+      <div class="image">
+          <img src="images/image3.jpg" alt="">
+      </div>
+      <div class="image">
+          <img src="images/image4.jpg" alt="">
+      </div>
+      <div class="image">
+        <img src="images/image5.webp" alt="">
+    </div>
+      <div class="button">
+          <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+          <a onclick="nextimg(1)" class="next">&#10095;</a>
+      </div>
+
+      <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
     <script src="./main.js"></script>
   </body>
 </html>
